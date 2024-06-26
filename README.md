@@ -3,7 +3,7 @@
 This Homework assignment was completed for Week One of the U of M Bootcamp, to practice html and css work. It's largely focused on refactoring a starter code for a webpage of a fictional SEO B2B Company, replacing div tags with more specific semantic html tags.
 
 ## Link to Deployed Version
-[Click here to view the deployed webpage.](https://floatingpoint-exaflop.github.io/semantic-html)
+[Click here to view the deployed webpage.](https://floatingpoint-exaflop.github.io/coding-portfolio)
 
 ## Screenshot of Deployed Version
 ![image](./assets/images/deployed-screenshot.png)
