@@ -1,0 +1,91 @@
+header {
+    background-color: #268d44;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img.top-left {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+header section.header-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header h1 {
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h2 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Begin CSS for nav links*/
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:link {
+    color: #ffffff
+/* - color for unvisited nav link */
+}
+
+nav a:visited {
+    color: #0e94c9
+/* - color for visited nav link */
+}
+
+nav a:hover {
+    color: #000000
+/* - color for visited nav link when mouse hovers over it */
+}
+
+nav a:active {
+    color: #ff00d9
+/* - color for nav link as it is clicked */
+}
+/*End CSS for nav links*/
+
+section#get-to-know-me {
+    height: 100px;
+    background-color: #c1c1c1;
+    border: 1px solid black;;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #268d44;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer h4 {
+    font-size: 30px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
