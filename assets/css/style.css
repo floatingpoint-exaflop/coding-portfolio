@@ -1,13 +1,14 @@
-
+/*Begin CSS for complete header*/
 
 header {
-    background-color: #268d44;
+    background-color: #8F9DB3;
     border: 1px solid black;
     border-radius: 4px;
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /*Header bar*/
 }
 
 header img.headshot {
@@ -33,48 +34,57 @@ header h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/*Begin CSS for nav links*/
+
 nav ul {
     padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/*Begin CSS for nav links*/
 nav a {
     text-decoration: none;
     font-size: 20px;
 }
 
 nav a:link {
-    color: #ffffff
+    color: #180F07
 /* - color for unvisited nav link */
 }
 
 nav a:visited {
-    color: #0e94c9
+    color: #867F6D
 /* - color for visited nav link */
 }
 
 nav a:hover {
-    color: #000000
+    color: #0B0A05;
+    font-weight: bold;
+    
 /* - color for visited nav link when mouse hovers over it */
 }
 
 nav a:active {
-    color: #ff00d9
+    color: #49402F
 /* - color for nav link as it is clicked */
 }
 /*End CSS for nav links*/
+/*End CSS for complete header*/
 
+/*Begin CSS for author bio section*/
 
 section#get-to-know-me {
     height: 100px;
-    background-color: #c1c1c1;
-    border: 1px solid black;;
+    background-color: #867F6D;
+    border: 1px solid #0B0A05;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
+/*End CSS for author bio section*/
+/*Begin CSS for portfolio work section*/
 
 section#see-my-work {
     height: 100px;
@@ -91,10 +101,11 @@ section#see-my-work {
     justify-content: center;
 }
 
-
+/*End CSS for portfolio work section*/
+/*Begin CSS for footer section*/
 
 footer {
-    background-color: #02c8ff;
+    background-color: #8F9DB3;
     border: 1px solid black;
     border-radius: 4px;
     height: 70px;
@@ -110,11 +121,12 @@ footer h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/*Begin CSS for logo contact links*/
+
 div.links {
     display: flex;
     flex-direction: row;
 }
-
 
 .emaillogo {
     padding-left: 10px;
@@ -137,3 +149,6 @@ div.links {
     width:50px;
     height:42px;
 }
+
+/*Begin CSS for portfolio work section*/
+/*End CSS for footer section*/
