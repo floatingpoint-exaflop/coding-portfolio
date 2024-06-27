@@ -1,3 +1,5 @@
+
+
 header {
     background-color: #268d44;
     border: 1px solid black;
@@ -8,7 +10,7 @@ header {
     justify-content: space-between;
 }
 
-header img.top-left {
+header img.headshot {
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -64,10 +66,6 @@ nav a:active {
 }
 /*End CSS for nav links*/
 
-a img {
-    width:42px;
-    height:42px;
-}
 
 section#get-to-know-me {
     height: 100px;
@@ -87,27 +85,55 @@ section#see-my-work {
     border-radius: 5px;
 }
 
-section#lets-talk {
-    height: 100px;
-    background-color: #c1c1c1;
-    border: 1px solid black;;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #268d44;
-    border: 1px solid black;
-    border-radius: 4px;
-    height: 70px;
+.container-projects {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-footer h4 {
-    font-size: 30px;
-    padding: 20px;
+
+
+footer {
+    background-color: #02c8ff;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 70px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+footer h3 {
+    font-size: 20px;
+    padding-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.links {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.emaillogo {
+    padding-left: 10px;
+    padding-top: 3px;
+    width:42px;
+    height:42px;
+}
+
+.iglogo {
+    padding-left: 10px;
+    padding-top: 3px;
+    width:42px;
+    height:42px;
+}
+
+.discordlogo {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    width:50px;
+    height:42px;
 }
