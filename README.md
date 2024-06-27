@@ -12,7 +12,12 @@ This Homework assignment was completed for Week One of the U of M Bootcamp, to p
 
 Shoutout to [this blog post](https://www.seoptimer.com/blog/favicon-not-showing-up/) and [this tool](https://favicon.io/favicon-converter/) for the help with my favicon stuff.
 
-Thanks to Eric Meyer for the [start.css](http://meyerweb.com/eric/tools/css/reset/) code. 
+Thanks to Eric Meyer for the [start.css](http://meyerweb.com/eric/tools/css/reset/) code.
+
+Contact Icons:
+[Email Icon](https://www.iconpacks.net/free-icon/mail-142.html)
+[Instagram Icon](https://cdn-icons-png.flaticon.com/512/87/87390.png)
+[Discord Icon](https://discord.com/branding)
 
 ## License
 
