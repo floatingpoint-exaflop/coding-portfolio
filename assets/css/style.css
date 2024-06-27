@@ -83,11 +83,12 @@ section#get-to-know-me {
     border-radius: 5px;
 }
 
+
 /*End CSS for author bio section*/
 /*Begin CSS for portfolio work section*/
 
 section#see-my-work {
-    height: 100px;
+    height: 1000px;
     background-color: #c1c1c1;
     border: 1px solid black;;
     margin-top: 10px;
@@ -99,6 +100,35 @@ section#see-my-work {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#main-project {
+    background-image: url(./assets/images/main-project.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: #867F6D;
+    border: 1px solid black;
+}
+
+.minor-project-tile {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-color: #867F6D;
+    border: 1px solid black;
+}
+
+#project-2 {
+    background-image: url(./assets/images/project-2.jpg);
+}
+
+#project-3 {
+    background-image: url(./assets/images/project-3.jpg);
+}
+
+#project-4 {
+    background-image: url(./assets/images/project-4.jpg);
 }
 
 /*End CSS for portfolio work section*/
