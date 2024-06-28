@@ -107,7 +107,7 @@ main {
 
             #see-my-work {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 background-color: #8f9db3aa;
                 border: 1px solid black;
                 justify-content: space-between;
