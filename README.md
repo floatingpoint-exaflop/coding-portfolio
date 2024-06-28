@@ -1,6 +1,6 @@
-# Module 1 Challenge: Semantic HTML Homework
+# Module 2 Challenge: Coding Portfolio
 
-This Homework assignment was completed for Week One of the U of M Bootcamp, to practice html and css work. It's largely focused on refactoring a starter code for a webpage of a fictional SEO B2B Company, replacing div tags with more specific semantic html tags.
+This Homework assignment was completed for Week Two of the U of M Bootcamp, to practice making a portfolio using more advanced html and css work, including flexbow and media queries. This portfolio page will be updated with real projects as I gain more skills; the look and feel will likely improve over time as I develop knowledge of CSS and HTML features too.
 
 ## Link to Deployed Version
 [Click here to view the deployed webpage.](https://floatingpoint-exaflop.github.io/coding-portfolio)
