@@ -1,3 +1,12 @@
+/* CSS for Background/Body Img */
+
+body {
+    background-image: url("../images/image-bg.jpg");
+    position: inherit;
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+}
+
 /* CSS for Header */
 
 header {
@@ -10,7 +19,6 @@ header {
   }
  
     header div {
-        /* background-color: #f1f1f1; */
         margin: 10px;
         padding: 20px;
     }
@@ -19,7 +27,6 @@ header {
             height: 120px;
             width: 120px;
             border-radius: 50%;
-            /* padding: 10px; */
         }
 
         .name-title {
@@ -40,20 +47,14 @@ header {
                 font-family: Georgia, 'Times New Roman', Times, serif;
             }
 
-body {
-    background-image: url("../images/image-bg.jpg");
-    position: inherit;
-    background-size: 100vw 100 vh;
-    background-repeat: no-repeat;
-}
 
 /* CSS for Header Nav */
     nav {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        /* background-color: #f1f1f1; */
         margin: 10px;
+        margin-top: 20px;
         padding: 20px;
         font-size: 30px;
     }
@@ -85,16 +86,21 @@ body {
             /* - color for nav link as it is clicked */
             }
 
+/* CSS for Main */
+
 main {
     display:flex;
     flex-direction: column;
 }
+
+/* CSS for Author Bio */
 
     #get-to-know-me {
         display: flex;
         flex-direction: row;
         background-color: #8f9db3aa;
         border: 1px solid black;
+        border-radius: 5px;
         justify-content: space-between;
         flex-wrap: wrap;
         margin: 10px;
@@ -112,73 +118,65 @@ main {
                 font-family: Georgia, 'Times New Roman', Times, serif;
                 }
 
-            #see-my-work {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                background-color: #8f9db3aa;
-                border: 1px solid black;
-                margin: 10px;
-                }
+/* CSS for Projects Tiles/Links */                
 
-                #see-my-work h2 {
-                    font-size: 40px;
-                    padding: 5px;
-                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                    }
-
-                .container-projects {
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    width: 100%;
-                }
-
-                .container-projects div {
-                    flex: 0 1 40%;
-                }
-
-                .container-projects div:first-child {
-                    flex: 1 1 100%;
-                }
-
-                .container-projects div img {
-                    width: 100%;
-                    height: auto;
-                }
-
-                .container-projects a {
-                    text-decoration: none;
-                }
-    
-                .container-projects h3 {
-                    padding: 5px;
-                    padding-left: 20px;
-                    font-weight: bold;
-                }
-
-    .projects {
-        margin: 5px;
-        border: solid black 1px;
-        box-sizing: border-box;
+    #see-my-work {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #8f9db3aa;
+        border: 1px solid black;
         border-radius: 5px;
-        color: #ffffff;
-        background-color: #867F6D;
-    }
+        margin: 10px;
+        }
 
-    /* .container-projects div:first-child {
-        margin: 5px;
-        border: solid black 1px;
-        box-sizing: border-box;
-        border-radius: 5px;
-        color: #ffffff;
-        background-color: #867F6D;
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-        padding: 10px;
-    } */
+        #see-my-work h2 {
+            font-size: 40px;
+            padding: 5px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
 
+        .all-projects {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+            .all-projects div {
+                flex: 0 1 50%;
+            }
+
+            .all-projects div:first-child {
+                flex: 1 1 100%;
+            }
+
+            .all-projects div img {
+                width: 100%;
+                height: auto;
+            }
+
+            .all-projects a {
+                text-decoration: none;
+            }
+
+            .all-projects h3 {
+                padding: 5px;
+                padding-left: 20px;
+                font-weight: bold;
+            }
+
+            .projects {
+                margin: 5px;
+                border: solid black 1px;
+                box-sizing: border-box;
+                border-radius: 5px;
+                color: #ffffff;
+                background-color: #867F6D;
+            }
+
+/*CSS for footer*/
+            
 footer {
     display: flex;
     flex-direction: row;
@@ -240,7 +238,6 @@ footer {
         .copyright {
             display: flex;
             flex-direction: column;
-            /* background-color: #f1f1f1; */
             width: 200px;
             margin: 10px;
             padding: 20px;   
@@ -248,15 +245,450 @@ footer {
 
 /*Tablet sizing*/
 @media screen and (max-width: 992px) {
-    
+    header div {
+        margin: 7.5px;
+        padding: 15px;
+    }
+        .headshot img {
+            height: 90px;
+            width: 90px;
+            border-radius: 50%;
+        }
+        .name-title {
+            /* display: flex;
+            flex-direction: column; */
+            padding-top: 22.5px;
+            /* text-align: center; */
+        }
+
+            .name-title h1 {
+                font-size: 45px;
+                padding-bottom: 7.5px;
+            }
+
+            .name-title h2 {
+                font-size: 15px;
+            }
+
+    nav {
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; */
+        margin: 7.5px;
+        margin-top: 15px;
+        padding: 15px;
+        font-size: 22.5px;
+    }
+
+    #get-to-know-me {
+        /* display: flex;
+        flex-direction: row; */
+        border-radius: 3.75px;
+        /* justify-content: space-between;
+        flex-wrap: wrap; */
+        margin: 7.5px;
+        }
+
+        #get-to-know-me h2 {
+            font-size: 30px;
+            padding: 3.75px;
+            }
+
+            #get-to-know-me p {
+                font-size: 15px;
+                padding: 3.75px;
+                }
+
+    #see-my-work {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #8f9db3aa;
+        border: 1px solid black; */
+        border-radius: 5px;
+        margin: 10px;
+        }
+
+        #see-my-work h2 {
+            font-size: 30px;
+            padding: 3.75px;
+            }
+
+        /* .all-projects {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        } */
+
+        .all-projects h3 {
+            padding: 3.75px;
+            padding-left: 15px;
+        }
+
+        .projects {
+            margin: 3.75px;
+            border-radius: 3.75px;
+        }
+
+    /* footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        } */
+
+        div.talkbox {
+            /* display: flex;
+            flex-direction: column; */
+            border-radius: 3.75px;
+            border-width: 2.25px;
+            margin: 11.25px;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        #lets-talk {
+            padding-top: 15px;
+            padding-left: 26.25px;
+        }
+
+            div.links {
+                /* display: flex;
+                flex-direction: row; */
+                margin: 7.5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 11.25px;
+            }
+                .emaillogo {
+                    padding-top: 2.25px;
+                    width:31.5px;
+                    height:31.5px;
+                }
+                
+                .iglogo {
+                    padding-left: 7.5px;
+                    padding-top: 2.25px;
+                    width:31.5px;
+                    height:31.5px;
+                }
+                
+                .discordlogo {
+                    padding-left: 7.5px;
+                    padding-right: 7.5px;
+                    padding-top: 2.25px;
+                    width:37.5px;
+                    height:31.5px;
+                }
+
+            .copyright {
+                /* display: flex;
+                flex-direction: column; */
+                width: 150px;
+                margin: 7.5px;
+                padding: 15px;   
+            }             
 }
 
 /*Large SPhone sizing*/
 @media screen and (max-width: 760px) {
+    header div {
+        margin: 7.5px;
+        padding: 15px;
+    }
+        .headshot img {
+            height: 90px;
+            width: 90px;
+            border-radius: 50%;
+        }
+        .name-title {
+            /* display: flex;
+            flex-direction: column; */
+            padding-top: 22.5px;
+            /* text-align: center; */
+        }
 
+            .name-title h1 {
+                font-size: 45px;
+                padding-bottom: 7.5px;
+            }
+
+            .name-title h2 {
+                font-size: 15px;
+            }
+
+    nav {
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; */
+        margin: 7.5px;
+        margin-top: 15px;
+        padding: 15px;
+        font-size: 22.5px;
+    }
+
+    #get-to-know-me {
+        /* display: flex;
+        flex-direction: row; */
+        border-radius: 3.75px;
+        /* justify-content: space-between;
+        flex-wrap: wrap; */
+        margin: 7.5px;
+        }
+
+        #get-to-know-me h2 {
+            font-size: 30px;
+            padding: 3.75px;
+            }
+
+            #get-to-know-me p {
+                font-size: 15px;
+                padding: 3.75px;
+                }
+
+    #see-my-work {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #8f9db3aa;
+        border: 1px solid black; */
+        border-radius: 5px;
+        margin: 10px;
+        }
+
+        #see-my-work h2 {
+            font-size: 30px;
+            padding: 3.75px;
+            }
+
+        /* .all-projects {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        } */
+
+        .all-projects h3 {
+            padding: 3.75px;
+            padding-left: 15px;
+        }
+
+        .projects {
+            margin: 3.75px;
+            border-radius: 3.75px;
+        }
+
+    /* footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        } */
+
+        div.talkbox {
+            /* display: flex;
+            flex-direction: column; */
+            border-radius: 3.75px;
+            border-width: 2.25px;
+            margin: 11.25px;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        #lets-talk {
+            padding-top: 15px;
+            padding-left: 26.25px;
+        }
+
+            div.links {
+                /* display: flex;
+                flex-direction: row; */
+                margin: 7.5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 11.25px;
+            }
+                .emaillogo {
+                    padding-top: 2.25px;
+                    width:31.5px;
+                    height:31.5px;
+                }
+                
+                .iglogo {
+                    padding-left: 7.5px;
+                    padding-top: 2.25px;
+                    width:31.5px;
+                    height:31.5px;
+                }
+                
+                .discordlogo {
+                    padding-left: 7.5px;
+                    padding-right: 7.5px;
+                    padding-top: 2.25px;
+                    width:37.5px;
+                    height:31.5px;
+                }
+
+            .copyright {
+                /* display: flex;
+                flex-direction: column; */
+                width: 150px;
+                margin: 7.5px;
+                padding: 15px;   
+            }             
 }
 
 /*Small SPhone sizing*/
 @media screen and (max-width: 576px) {
+    header div {
+        margin: 7.5px;
+        padding: 15px;
+    }
+        .headshot img {
+            height: 90px;
+            width: 90px;
+            border-radius: 50%;
+        }
+        .name-title {
+            /* display: flex;
+            flex-direction: column; */
+            padding-top: 22.5px;
+            /* text-align: center; */
+        }
 
+            .name-title h1 {
+                font-size: 45px;
+                padding-bottom: 7.5px;
+            }
+
+            .name-title h2 {
+                font-size: 15px;
+            }
+
+    nav {
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; */
+        margin: 7.5px;
+        margin-top: 15px;
+        padding: 15px;
+        font-size: 22.5px;
+    }
+
+    #get-to-know-me {
+        /* display: flex;
+        flex-direction: row; */
+        border-radius: 3.75px;
+        /* justify-content: space-between;
+        flex-wrap: wrap; */
+        margin: 7.5px;
+        }
+
+        #get-to-know-me h2 {
+            font-size: 30px;
+            padding: 3.75px;
+            }
+
+            #get-to-know-me p {
+                font-size: 15px;
+                padding: 3.75px;
+                }
+
+    #see-my-work {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #8f9db3aa;
+        border: 1px solid black; */
+        border-radius: 5px;
+        margin: 10px;
+        }
+
+        #see-my-work h2 {
+            font-size: 30px;
+            padding: 3.75px;
+            }
+
+        /* .all-projects {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        } */
+
+        .all-projects h3 {
+            padding: 3.75px;
+            padding-left: 15px;
+        }
+
+        .projects {
+            margin: 3.75px;
+            border-radius: 3.75px;
+        }
+
+    /* footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        } */
+
+        div.talkbox {
+            /* display: flex;
+            flex-direction: column; */
+            border-radius: 3.75px;
+            border-width: 2.25px;
+            margin: 11.25px;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        #lets-talk {
+            padding-top: 15px;
+            padding-left: 26.25px;
+        }
+
+            div.links {
+                /* display: flex;
+                flex-direction: row; */
+                margin: 7.5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 11.25px;
+            }
+                .emaillogo {
+                    padding-top: 2.25px;
+                    width:31.5px;
+                    height:31.5px;
+                }
+                
+                .iglogo {
+                    padding-left: 7.5px;
+                    padding-top: 2.25px;
+                    width:31.5px;
+                    height:31.5px;
+                }
+                
+                .discordlogo {
+                    padding-left: 7.5px;
+                    padding-right: 7.5px;
+                    padding-top: 2.25px;
+                    width:37.5px;
+                    height:31.5px;
+                }
+
+            .copyright {
+                /* display: flex;
+                flex-direction: column; */
+                width: 150px;
+                margin: 7.5px;
+                padding: 15px;   
+            }             
 }
