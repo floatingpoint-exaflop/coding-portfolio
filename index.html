@@ -5,82 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style-new.css" />
     <link rel="icon" href="./assets/favicon/favicon.ico" type=“image/x-icon” />
     <link rel=“shortcut icon” href=“favicon.ico” type=“image/x-icon”>
     <title>Tim Scallon's Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <img src="./assets/images/headshot-timscallon.jpg" alt="A headshot of Tim Scallon, owner and creator of this portfolio page" class="headshot">
-        <section class="header-text">
+    <header class="header">
+        <div class="headshot">
+            <img src="./assets/images/headshot-timscallon.jpg" alt="A headshot of Tim Scallon, owner and creator of this portfolio page.">
+        </div>
+
+        <div class="name-title">
             <h1>Tim Scallon</h1>
             <h2>Full Stack Developer & Analyst</h2>
-        </section>
+        </div>
 
         <nav>
-            <ul>
-                <li>
-                    <a href="#get-to-know-me">Get to Know Me</a>
-                </li>
-                <li>
-                    <a href="#see-my-work">See My Work</a>
-                </li>
-                <li>
-                    <a href="#lets-talk">Let's Talk!</a>
-                </li>
-            </ul>
+            <a href="#get-to-know-me">Get to Know Me</a>
+            <a href="#see-my-work">See My Work</a>
+            <a href="#lets-talk">Let's Talk!</a>
         </nav>
-    
     </header>
-
+    
     <main>
         <section id="get-to-know-me">
-            <h3>Get to Know Me</h3>
-            <p>Hi! My name is Tim. I am a technical business analyst proudly residing in North Minneapolis. I've worked
-                in tech for over eight years - primarily in Medicare/Medicaid Information Systems - and am currently
-                training to become a full stack developer in a University of Minnesota boot camp.</p><p>Some day I hope to
-                work in machine vision and study image signal processing/object recognition in robots, but for now I am focusing on learning and hopefully mastering HTML, CSS, and Javascript.</p>
+            <h2>Get to Know Me</h2>
+            <p>Hi! My name is Tim. I am a technical business analyst proudly residing in North Minneapolis. I've worked in tech for over eight years - primarily in Medicare/Medicaid Information Systems - and am currently
+            training to become a full stack developer in a University of Minnesota boot camp.</p>
+            <p>Some day I hope to work in machine vision and study image signal processing/object recognition in robots, but for now I am focusing on learning and hopefully mastering HTML, CSS, and Javascript.</p>
+            <p>When I'm not practicing coding, I can be found walking or biking around North and Northeast, laying in the sun at Webber Pool, or reading.</p>
         </section>
 
         <section id="see-my-work">
+            <h2>See My Work</h2>
             <div class="container-projects">
-                <h3>See My Work</h3>
-                    <article id="main-project">
-                        <!-- <img src="./assets/pictures/semantic-html.jpg"> -->
-                        <p>Semantic HTML</p>
+    
+                    <article class="main-project" class="projects">
+                        <h3>My latest and greatest: Semantic HTML</h3>
+                        <img src="./assets/images/main-project.jpg" alt="A picture of an SEO company's webpage.">
                     </article>
 
-                    <article class="minor-project-tile" id="project-2">
-                        <!-- <img src="./assets/pictures/project-2.jpg"> -->
-                        <p>Project 2</p>
+                    <article class="projects">
+                        <h3>Prework Study Guide: HTML and CSS Practice</h3>
+                        <img src="./assets/images/project-2.jpg" alt="A picture of an SEO company's webpage.">
                     </article>
 
-                    <article class="minor-project-tile" id="project-3">
-                        <!-- <img src="./assets/pictures/project-3.jpg"> -->
-                        <p>Project 3</p>
+                    <article class="projects">
+                        <h3>123-Throw! A Rock/Paper/Scissors Game</h3>
+                        <img src="./assets/images/project-3.jpg" alt="A picture of an SEO company's webpage.">
                     </article>
 
-                    <article class="minor-project-tile" id="project-4">
-                        <!-- <img src="./assets/pictures/project-4.jpg"> -->
-                        <p>Project 4</p>
+                    <article class="projects">
+                        <h3>Project 4</h3>
+                        <img src="./assets/images/project-4.jpg" alt="A picture of an SEO company's webpage.">
                     </article>
-                </div>
-            </div>
-        </section>
-        
 
-            </div>
-        </section>
     </main>
-    <footer>
-        <h3 id="lets-talk">Let's Talk!</h3>
-        <div class="links">
-            <a href="mailto:timscallon1@gmail.com" 
-            target="_blank"><img src="./assets/images/email.png" alt="A symbolic icon depicting a mailing envelope." class="emaillogo"></a>
-            <a href="https://www.instagram.com/frederico_swarthings" target="_blank"><img src="./assets/images/instagram.png" alt="A symbolic icon depicting the Instagram logo." class="iglogo"></a>
-            <a href="https://discord.gg/G8eJp6CHgz" target="_blank"><img src="./assets/images/discord.png" alt="A symbolic icon depicting the Discord logo." class="discordlogo"></a>
+
+    <footer class="footer">
+        <div class="talkbox">
+            <h3 id="lets-talk">Let's Talk!</h3>    
+            <div class="links">
+                <a href="mailto:timscallon1@gmail.com" 
+                target="_blank"><img src="./assets/images/email.png" alt="A symbolic icon depicting a mailing envelope." class="emaillogo"></a>
+
+                <a href="https://www.instagram.com/frederico_swarthings" target="_blank"><img src="./assets/images/instagram.png" alt="A symbolic icon depicting the Instagram logo." class="iglogo"></a>
+
+                <a href="https://discord.gg/G8eJp6CHgz" target="_blank"><img src="./assets/images/discord.png" alt="A symbolic icon depicting the Discord logo." class="discordlogo"></a>
+            </div>
+        </div>
+        <div class="copyright">
+        <h3>&copy; 2024 Tim Scallon; Instagram and Discord logos are trademarks of their respective owners.
+        </h3>
         </div>
     </footer>
 

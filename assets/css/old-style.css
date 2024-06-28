@@ -1,0 +1,184 @@
+/*Begin CSS for complete header*/
+
+header {
+    background-color: #8F9DB3;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*Header bar*/
+}
+
+header img.headshot {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+header section.header-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header h1 {
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h2 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Begin CSS for nav links*/
+
+nav ul {
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:link {
+    color: #180F07
+/* - color for unvisited nav link */
+}
+
+nav a:visited {
+    color: #867F6D
+/* - color for visited nav link */
+}
+
+nav a:hover {
+    color: #0B0A05;
+    font-weight: bold;
+    
+/* - color for visited nav link when mouse hovers over it */
+}
+
+nav a:active {
+    color: #49402F
+/* - color for nav link as it is clicked */
+}
+/*End CSS for nav links*/
+/*End CSS for complete header*/
+
+/*Begin CSS for author bio section*/
+
+section#get-to-know-me {
+    height: 100px;
+    background-color: #867F6D;
+    border: 1px solid #0B0A05;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+/*End CSS for author bio section*/
+/*Begin CSS for portfolio work section*/
+
+section#see-my-work {
+    height: 1000px;
+    background-color: #c1c1c1;
+    border: 1px solid black;;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.container-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main-project {
+    /* background-image: url("./assets/images/main-project.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: #867F6D;
+    border: 1px solid black;
+}
+
+.minor-project-tile {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-color: #867F6D;
+    border: 1px solid black;
+}
+
+#project-2 {
+    /* background-image: url("./assets/images/project-2.jpg"); */
+}
+
+#project-3 {
+    /* background-image: url("./assets/images/project-3.jpg"); */
+}
+
+#project-4 {
+    /* background-image: url("./assets/images/project-4.jpg"); */
+}
+
+/*End CSS for portfolio work section*/
+/*Begin CSS for footer section*/
+
+footer {
+    background-color: #8F9DB3;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 70px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+footer h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Begin CSS for logo contact links*/
+
+div.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.emaillogo {
+    padding-left: 10px;
+    padding-top: 3px;
+    width:42px;
+    height:42px;
+}
+
+.iglogo {
+    padding-left: 10px;
+    padding-top: 3px;
+    width:42px;
+    height:42px;
+}
+
+.discordlogo {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    width:50px;
+    height:42px;
+}
+
+/*Begin CSS for portfolio work section*/
+/*End CSS for footer section*/
