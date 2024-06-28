@@ -472,7 +472,7 @@ footer {
 }
 
 /*Small SPhone sizing*/
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 576px) {
     header div {
         margin: 2.5px;
         padding: 7.5px;
