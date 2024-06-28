@@ -252,13 +252,9 @@ footer {
         .headshot img {
             height: 90px;
             width: 90px;
-            border-radius: 50%;
         }
         .name-title {
-            /* display: flex;
-            flex-direction: column; */
             padding-top: 22.5px;
-            /* text-align: center; */
         }
 
             .name-title h1 {
@@ -271,9 +267,6 @@ footer {
             }
 
     nav {
-        /* display: flex;
-        flex-direction: column;
-        flex-wrap: wrap; */
         margin: 7.5px;
         margin-top: 15px;
         padding: 15px;
@@ -281,11 +274,7 @@ footer {
     }
 
     #get-to-know-me {
-        /* display: flex;
-        flex-direction: row; */
         border-radius: 3.75px;
-        /* justify-content: space-between;
-        flex-wrap: wrap; */
         margin: 7.5px;
         }
 
@@ -300,26 +289,14 @@ footer {
                 }
 
     #see-my-work {
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: #8f9db3aa;
-        border: 1px solid black; */
-        border-radius: 5px;
-        margin: 10px;
+        border-radius: 3.75px;
+        margin: 7.5px;
         }
 
         #see-my-work h2 {
             font-size: 30px;
             padding: 3.75px;
             }
-
-        /* .all-projects {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-        } */
 
         .all-projects h3 {
             padding: 3.75px;
@@ -331,16 +308,7 @@ footer {
             border-radius: 3.75px;
         }
 
-    /* footer {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        } */
-
         div.talkbox {
-            /* display: flex;
-            flex-direction: column; */
             border-radius: 3.75px;
             border-width: 2.25px;
             margin: 11.25px;
@@ -356,8 +324,6 @@ footer {
         }
 
             div.links {
-                /* display: flex;
-                flex-direction: row; */
                 margin: 7.5px;
                 padding-left: 15px;
                 padding-right: 15px;
@@ -385,8 +351,6 @@ footer {
                 }
 
             .copyright {
-                /* display: flex;
-                flex-direction: column; */
                 width: 150px;
                 margin: 7.5px;
                 padding: 15px;   
@@ -396,299 +360,227 @@ footer {
 /*Large SPhone sizing*/
 @media screen and (max-width: 760px) {
     header div {
-        margin: 7.5px;
-        padding: 15px;
+        margin: 5px;
+        padding: 10px;
     }
         .headshot img {
-            height: 90px;
-            width: 90px;
-            border-radius: 50%;
+            height: 60px;
+            width: 60px;
         }
         .name-title {
-            /* display: flex;
-            flex-direction: column; */
-            padding-top: 22.5px;
-            /* text-align: center; */
+            padding-top: 15px;
         }
 
             .name-title h1 {
-                font-size: 45px;
-                padding-bottom: 7.5px;
+                font-size: 30px;
+                padding-bottom: 5px;
             }
 
             .name-title h2 {
-                font-size: 15px;
+                font-size: 10px;
             }
 
     nav {
-        /* display: flex;
-        flex-direction: column;
-        flex-wrap: wrap; */
-        margin: 7.5px;
-        margin-top: 15px;
-        padding: 15px;
-        font-size: 22.5px;
+        margin: 5px;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 15px;
     }
 
     #get-to-know-me {
-        /* display: flex;
-        flex-direction: row; */
-        border-radius: 3.75px;
-        /* justify-content: space-between;
-        flex-wrap: wrap; */
-        margin: 7.5px;
+        border-radius: 2.5px;
+        margin: 5px;
         }
 
         #get-to-know-me h2 {
-            font-size: 30px;
-            padding: 3.75px;
+            font-size: 20px;
+            padding: 2.5px;
             }
 
             #get-to-know-me p {
-                font-size: 15px;
-                padding: 3.75px;
+                font-size: 10px;
+                padding: 2.5px;
                 }
 
     #see-my-work {
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: #8f9db3aa;
-        border: 1px solid black; */
-        border-radius: 5px;
-        margin: 10px;
+        border-radius: 2.5px;
+        margin: 5px;
         }
 
         #see-my-work h2 {
-            font-size: 30px;
-            padding: 3.75px;
+            font-size: 20px;
+            padding: 2.5px;
             }
 
-        /* .all-projects {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-        } */
-
         .all-projects h3 {
-            padding: 3.75px;
-            padding-left: 15px;
+            padding: 2.5px;
+            padding-left: 10px;
         }
 
         .projects {
-            margin: 3.75px;
-            border-radius: 3.75px;
+            margin: 2.5px;
+            border-radius: 2.5px;
         }
 
-    /* footer {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        } */
-
         div.talkbox {
-            /* display: flex;
-            flex-direction: column; */
-            border-radius: 3.75px;
-            border-width: 2.25px;
-            margin: 11.25px;
+            border-radius: 2.5px;
+            border-width: 1.5px;
+            margin: 7.5px;
         }
 
         h3 {
-            font-size: 15px;
+            font-size: 10px;
         }
 
         #lets-talk {
-            padding-top: 15px;
-            padding-left: 26.25px;
+            padding-top: 10px;
+            padding-left: 17.5px;
         }
 
             div.links {
-                /* display: flex;
-                flex-direction: row; */
-                margin: 7.5px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 11.25px;
+                margin: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 7.5px;
             }
                 .emaillogo {
-                    padding-top: 2.25px;
-                    width:31.5px;
-                    height:31.5px;
+                    padding-top: 1.5px;
+                    width:21px;
+                    height:21px;
                 }
                 
                 .iglogo {
-                    padding-left: 7.5px;
-                    padding-top: 2.25px;
-                    width:31.5px;
-                    height:31.5px;
+                    padding-left: 5px;
+                    padding-top: 1.5px;
+                    width:21px;
+                    height:21px;
                 }
                 
                 .discordlogo {
-                    padding-left: 7.5px;
-                    padding-right: 7.5px;
-                    padding-top: 2.25px;
-                    width:37.5px;
-                    height:31.5px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    padding-top: 1.5px;
+                    width:25;
+                    height:21px;
                 }
 
             .copyright {
-                /* display: flex;
-                flex-direction: column; */
-                width: 150px;
-                margin: 7.5px;
-                padding: 15px;   
+                width: 100px;
+                margin: 5px;
+                padding: 10px;   
             }             
 }
 
 /*Small SPhone sizing*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 760px) {
     header div {
-        margin: 7.5px;
-        padding: 15px;
+        margin: 2.5px;
+        padding: 7.5px;
     }
         .headshot img {
-            height: 90px;
-            width: 90px;
-            border-radius: 50%;
+            height: 30px;
+            width: 30px;
         }
         .name-title {
-            /* display: flex;
-            flex-direction: column; */
-            padding-top: 22.5px;
-            /* text-align: center; */
+            padding-top: 7.5px;
         }
 
             .name-title h1 {
-                font-size: 45px;
-                padding-bottom: 7.5px;
+                font-size: 15px;
+                padding-bottom: 2.5px;
             }
 
             .name-title h2 {
-                font-size: 15px;
+                font-size: 5px;
             }
 
     nav {
-        /* display: flex;
-        flex-direction: column;
-        flex-wrap: wrap; */
-        margin: 7.5px;
-        margin-top: 15px;
-        padding: 15px;
-        font-size: 22.5px;
+        margin: 2.5px;
+        margin-top: 5px;
+        padding: 5px;
+        font-size: 7.5px;
     }
 
     #get-to-know-me {
-        /* display: flex;
-        flex-direction: row; */
-        border-radius: 3.75px;
-        /* justify-content: space-between;
-        flex-wrap: wrap; */
-        margin: 7.5px;
+        border-radius: 1.25px;
+        margin: 2.5px;
         }
 
         #get-to-know-me h2 {
-            font-size: 30px;
-            padding: 3.75px;
+            font-size: 10px;
+            padding: 1.25px;
             }
 
             #get-to-know-me p {
-                font-size: 15px;
-                padding: 3.75px;
+                font-size: 5px;
+                padding: 1.25px;
                 }
 
     #see-my-work {
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: #8f9db3aa;
-        border: 1px solid black; */
-        border-radius: 5px;
-        margin: 10px;
+        border-radius: 1.25px;
+        margin: 2.5px;
         }
 
         #see-my-work h2 {
-            font-size: 30px;
-            padding: 3.75px;
+            font-size: 10px;
+            padding: 1.25px;
             }
 
-        /* .all-projects {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-        } */
-
         .all-projects h3 {
-            padding: 3.75px;
-            padding-left: 15px;
+            padding: 1.25px;
+            padding-left: 5px;
         }
 
         .projects {
-            margin: 3.75px;
-            border-radius: 3.75px;
+            margin: 1.25px;
+            border-radius: 1.25px;
         }
 
-    /* footer {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        } */
-
         div.talkbox {
-            /* display: flex;
-            flex-direction: column; */
-            border-radius: 3.75px;
-            border-width: 2.25px;
-            margin: 11.25px;
+            border-radius: 1.25px;
+            border-width: 1.25px;
+            margin: 3.75px;
         }
 
         h3 {
-            font-size: 15px;
+            font-size: 5px;
         }
 
         #lets-talk {
-            padding-top: 15px;
-            padding-left: 26.25px;
+            padding-top: 5px;
+            padding-left: 8.75px;
         }
 
             div.links {
-                /* display: flex;
-                flex-direction: row; */
-                margin: 7.5px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 11.25px;
+                margin: 2.5px;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 3.75px;
             }
                 .emaillogo {
-                    padding-top: 2.25px;
-                    width:31.5px;
-                    height:31.5px;
+                    padding-top: .75px;
+                    width:10.5px;
+                    height:10.5px;
                 }
                 
                 .iglogo {
-                    padding-left: 7.5px;
-                    padding-top: 2.25px;
-                    width:31.5px;
-                    height:31.5px;
+                    padding-left: 2.5px;
+                    padding-top: .75px;
+                    width:10.5px;
+                    height:10.5px;
                 }
                 
                 .discordlogo {
-                    padding-left: 7.5px;
-                    padding-right: 7.5px;
-                    padding-top: 2.25px;
-                    width:37.5px;
-                    height:31.5px;
+                    padding-left: 2.5px;
+                    padding-right: 2.5px;
+                    padding-top: .75px;
+                    width:12.5;
+                    height:10.5px;
                 }
 
             .copyright {
-                /* display: flex;
-                flex-direction: column; */
-                width: 150px;
-                margin: 7.5px;
-                padding: 15px;   
+                width: 50px;
+                margin: 2.5px;
+                padding: 5px;   
             }             
 }
